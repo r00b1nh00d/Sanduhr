@@ -1,6 +1,6 @@
 # Sanduhr
 ## ~avatar avatar @unplugged
-![Sanduhr](https://github.com/r00b1nh00d/Sanduhr/blob/master/Sanduhr.gif?raw=true)
+![Sanduhr](https://github.com/r00b1nh00d/Sanduhr/blob/master/Sanduhr.gif?raw=true) <br>
 Einen Countdown oder eine Sanduhr mit dem @boardname@ programmieren lernen.
 
 
