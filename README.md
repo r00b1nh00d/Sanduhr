@@ -43,7 +43,7 @@ input.onButtonPressed(Button.A, function () {
 ```
 
 ## Schritt 3: Einen Signalton zum Schluss
-Zum Abschluss kannst du noch aus dem Bereich ``||music:Musik||`` einen Ton abspielen lassen. Wenn du diesen Block unter die Schleifen schiebst sollte der Ton abgespielt werden wenn der Countdown komplett abgelaufen ist.
+Zum Abschluss kannst du noch aus dem Bereich ``||music:Musik||`` einen Ton abspielen lassen. Wenn du diesen Block unter die Schleifen schiebst sollte der Ton abgespielt werden, sobald der Countdown komplett abgelaufen ist.
 
 ```blocks
 
@@ -62,8 +62,8 @@ input.onButtonPressed(Button.A, function () {
 
 ## ~ @unplugged 
 
-Es ist geschafft deine Sanduhr sollte nun jede Sekunde eine weiter LED auf der Anzeige am Calliope anschalten und am Ende einen Ton abspielen, der Signalisiert, dass der Countdown abgelaufen ist. <br>
-Um dies für mehrer Minuten zu programmieren kannst du auch mehrer Pausen hinternander ablaufen lassen z.B. eine 5 Sekunden Pause + eine 1 Sekunden Pause = 6 Sekunden Pause in einer Widerholschleife welche 10-mal Durchlaufen wird ergibt eine Minute. <br>
+Es ist geschafft deine Sanduhr sollte nun jede Sekunde eine weitere LED auf der Anzeige am Calliope anschalten und am Ende einen Ton abspielen, der Signalisiert, dass der Countdown abgelaufen ist. <br>
+Um dies für mehrer Minuten zu programmieren kannst du auch mehrere Pausen hinternander ablaufen lassen z.B. eine 5 Sekunden Pause + eine 1 Sekunden Pause = 6 Sekunden Pause in einer Widerhol-schleife welche 10-mal Durchlaufen wird ergibt das eine Minute. <br>
 Um daraus 10 Minuten zu machen kannst du die Schleife nochmal in eine Schleife einbauen.
 
 ``` blocks
