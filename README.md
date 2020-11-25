@@ -8,10 +8,10 @@ Einen Countdown oder eine Sanduhr mit dem @boardname@ programmieren lernen.
 Zum plätzchenbacken ist es wichtig die Zeit im auge zu behalten. Damit hier nichts schief geht kannst du den Calliope nutzen und ihn so Programmieren, dass er einen Signalton abgibt sobald die Zeit um ist.
 
 ## Schritt 1: Die LED Matrix ansteuern
-Beginnen wir mit dem Block ``||input: wenn Knopf A gedrückt||`` welcher den Countdown Starten soll. Bevor der Countdown wirklich startet ist es gut den erstmal den  ``||basic: Bildschirminhalt löschen||`` diesen Block gibt es auch unter ``||basic: Grundlagen||``
-Als nächstest nehmen wir aus dem Bereich ``||loops:Schleifen||`` den Block mit ``||loops: für Index von 0 bis 4 ||`` Dieser kommt unter den Block ``|basic: Bildschirminhalt löschen|`` in diese Schlaufe können wir aus dem Bereich ``||led: Led||`` den Block ``||led: zeichne x 0 y 0||`` 
+Beginnen wir mit dem Block ``||input: wenn Knopf A gedrückt||`` welcher den Countdown Starten soll. Bevor der Countdown wirklich startet ist es gut  erstmal den  ``||basic: Bildschirminhalt löschen||``, diesen Block gibt es auch unter ``||basic: Grundlagen||``
+Als nächstest nehmen wir aus dem Bereich ``||loops:Schleifen||`` den Block mit ``||loops: für Index von 0 bis 4 ||`` Dieser kommt unter den Block ``|basic: Bildschirminhalt löschen|`` in diese Schleife können wir aus dem Bereich ``||led: Led||`` den Block ``||led: zeichne x 0 y 0||`` 
 Schiebe jetzt noch die Variable ``||variables:Index||`` an die Stelle für den x-Wert. <br>
-Hinweis eine ``||basic:pause||`` am Ende der Schleife lässt diese langsamer durchlaufen, damit unser Auge dem folgen kann.
+**Hinweis** eine ``||basic:pause||`` am Ende der Schleife lässt diese langsamer durchlaufen, damit unser Auge folgen kann.
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -28,6 +28,7 @@ input.onButtonPressed(Button.A, function () {
 
 ## Schritt 2: Die LED Matrix auch in y-Richtung ansteuern
 Versuche nun in die Bisherige Schleife eine Weitere schleife zu schieben. Nehme ab jetzt die ``||variables:Variablen||`` ``||variables:x-Index||`` und ``||variables:y-Index||`` 
+um die LED's in x-Richtung und y-Richtung zeichnen zu lassen.
 ```blocks
 input.onButtonPressed(Button.A, function () {
     basic.clearScreen()
