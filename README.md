@@ -5,7 +5,7 @@ Einen Countdown oder eine Sanduhr mit dem @boardname@ programmieren lernen.
 
 
 ## ~ @unplugged
-Zum plätzchenbacken ist es wichtig die Zeit im auge zu behalten. Damit hier nichts schief geht kannst du den Calliope nutzen und ihn so Programmieren, dass er einen Signalton abgibt sobald die Zeit um ist.
+Zum plätzchenbacken ist es wichtig die Zeit im auge zu behalten. Damit hier nichts schief geht kannst du den Calliope nutzen und ihn so Programmieren, dass er einen Signalton abgibt sobald die Zeit um ist. <br>
 ![Kekse](https://github.com/r00b1nh00d/Sanduhr/blob/master/Kekse4.jpg?raw=true)
 
 ## Schritt 1: Die LED Matrix ansteuern
