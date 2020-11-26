@@ -6,7 +6,7 @@ Einen Countdown oder eine Sanduhr mit dem @boardname@ programmieren lernen.
 
 ## ~ @unplugged
 Zum plätzchenbacken ist es wichtig die Zeit im auge zu behalten. Damit hier nichts schief geht kannst du den Calliope nutzen und ihn so Programmieren, dass er einen Signalton abgibt sobald die Zeit um ist.
-![Kekse](https://github.com/r00b1nh00d/Sanduhr/blob/master/Kekse2.jpg?raw=true)
+![Kekse](https://github.com/r00b1nh00d/Sanduhr/blob/master/Kekse4.jpg?raw=true)
 
 ## Schritt 1: Die LED Matrix ansteuern
 Beginnen wir mit dem Block ``||input: wenn Knopf A gedrückt||`` welcher den Countdown Starten soll. Bevor der Countdown wirklich startet ist es gut  erstmal den  ``||basic: Bildschirminhalt löschen||``, diesen Block gibt es auch unter ``||basic: Grundlagen||``
